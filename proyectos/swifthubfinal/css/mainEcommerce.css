@@ -1,0 +1,66 @@
+
+.containerCards h2{
+    font-size:3em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2%;
+}
+.card{
+    background-color: #D9D9D9;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin: 50px;
+    transition: width 1s;
+}
+.card:hover{
+    background-color: #CADEFF;
+    box-shadow: 0 4px 8px 0  #949494, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 310px;
+    color: white;
+}
+
+.imgCard{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.infoCard{
+    border-radius: 0px 0px 10px 10px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.infoCard:hover{
+    background-color: #CADEFF;
+    color: white;
+}
+
+p{
+    margin: 10px;
+}
+
+#valor{
+    font-weight: 100;
+}
+
+.sliderVideo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.sliderSamsung .videoPromo{
+    width: 95%;
+    border-radius:10px;
+}
+

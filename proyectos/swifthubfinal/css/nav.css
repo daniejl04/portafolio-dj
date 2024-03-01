@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 80px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+nav .mediumContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 100px;
+    list-style: none;
+}
+
+nav .containerLists {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+nav .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5%;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav .finalContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.containerIconSamsung {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 120px;
+}
+
+.iconSamsung {
+    padding-left: 1.8rem;
+}
+
+.aboutUs {
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-right: 1rem;
+}
+
+.aboutUs:hover {
+    background-color:#1b73e8;
+    border: none;
+}
+
+.anchorAbout {
+    padding: 0.4rem;
+}
+
+.anchorAbout:hover {
+    color: white;
+}
+
+.language {
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-right: 1rem;
+}
+
+.language:hover {
+    background-color: #1b73e8;
+    border: none;
+}
+
+.anchorLang {
+    padding: 0.4rem;
+}
+
+.anchorLang:hover {
+    color: white;
+}
+
+.iconMenu {
+    display: none;
+}
+
+.imgIconMenu {
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.4rem;
+}
+
+.desplegar_menu {
+    display: none;
+    position: absolute;
+    right: 0rem;
+    width: 300px;
+    top: 80px;
+    background-color: rgba(88, 153, 202, 0.747);
+    overflow: hidden;
+}
+
+.desplegar_menu li {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerIconSamsungMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.iconCompany {
+    width: 2.4rem;
+}
+
+/* ocultar input de :checked */
+#check {
+    display: none;
+}
+
+
+
+/* HEADER */
+
+/* Mobile - max-width: 992px*/
+@media (max-width: 992px) {
+    .iconMenu {
+        display: block;
+        cursor: pointer;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    a {
+        cursor: pointer;
+        z-index: 2;
+    }
+    
+    #check {
+        display: none;
+    }
+
+    #check:checked ~ .desplegar_menu {
+        display: block;
+    }
+
+    .desplegar_menu{
+        top: 70px;
+    }
+
+    #disguise {
+        display: none;
+    }
+
+    .icon {
+        padding-left: 2rem;
+    }
+
+    .finalContainer {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        height: 70px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    .iconCompany {
+        width: 2rem;
+    }
+
+    .iconCart {
+        width: 1.5rem;
+    }
+
+    .imgIconMenu {  
+        width: 75%;
+        height: 1.7rem;
+        margin-top: 0.4rem;
+    }
+
+
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+        margin: 0;
+        color: black;
+    }
+
+
+}
+/* Mobile - max-width: 375px*/
+@media (max-width: 375px) {
+    
+    a {
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .iconMenu {
+        display: block;
+        z-index: 1;
+    }
+
+    .desplegar_menu{
+        top: 70px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    .desplegar_menu li {
+        padding: 1.4rem;
+    }
+
+    .containerIconSamsungMobile {
+        padding: 1.4rem;
+    }
+}
+
+/* Mobile - max-width: 320px*/
+@media (max-width: 320px) {
+    .desplegar_menu{
+        top: 70px;
+        width: 100%;
+    }
+
+    a {
+        cursor: pointer;
+        z-index: 2;
+    }
+}
+
+/* Laptop - max-width: 1024px */
+@media (max-width: 1024px) {
+    nav .containerLists {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    a {
+        cursor: pointer;
+        z-index: 2;
+    }
+    
+    nav .mediumContainer {
+        gap: 2.5rem;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    .iconCompany {
+        width: 2.2rem;
+    }
+
+    .iconCart {
+        width: 1.5rem;
+    }
+}
+
+

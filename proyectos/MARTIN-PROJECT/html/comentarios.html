@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/custom.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src=".././node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="icon" sizes="any" href="../img/Vector.svg" type="image/svg+xml">
+    <title>Martin</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg  bg-primary  sticky-sm-top rounded-4 m-3" >
+    <div class="container-fluid ">
+      <a class="" href="#"><img src="../img/Capa 3.svg" width="60px" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto gap-2">
+          <li class="nav-item d-flex justify-content-center align-items-center">
+            <i class="bi bi-house text-white" style="font-size: 20px;"></i>
+            <a class="nav-link text-white" href=".././index.html">Home</a>
+          </li>
+
+          <li class="nav-item d-flex justify-content-center align-items-center">
+            <i class="bi bi-chat-left-text text-white mt-1" style="font-size: 20px;"></i>
+            <a class="nav-link text-white" href=".././comentarios.html">Comentarios</a>
+          </li>
+        </ul>
+        <li class="nav-item d-flex justify-content-center align-items-center">
+          <i class="bi bi-person-circle text-white" style="font-size: 20px;"></i>
+          <button class="btn  btn" type="submit"><a class="link-underline link-underline-opacity-0 text-light"  href="./profile.html">Perfil</a></button>
+        </li>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div id="containerComments" class="col-sm-5 col-md-6 col-12 pb-3 p-5">
+                <h1 class="pl-5">Comentarios</h1>
+                
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-4 offset-md-1 offset-sm-1 col-12 mt-2 p-5">
+                <form method="POST" id="formularioComentarios">
+                    <div class="form-group">
+                        <h4>Deja un comentario</h4>
+                        <label class="mt-2 mb-2" for="message">Mensaje</label>
+                        <textarea name="msg" id="textArea" msg cols="30" rows="5" class="form-control bg-light" style="background-color: black;"></textarea>
+                    </div>
+                    <div class="form-group mt-4">
+                        <button type="submit" class="btn btn-primary text-light">Enviar comentario</button>      
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="module" src="../js/comentarios.js"></script>
+    <script src="../component/componentes/navegacion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

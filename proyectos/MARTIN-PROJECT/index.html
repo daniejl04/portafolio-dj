@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin</title>
+    <link rel="stylesheet" href="./scss/custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="img/Vector.svg" type="image/x-icon">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body class="bg-grey">
+
+    <!-- NAVBAR -->
+    <navbar-m></navbar-m>
+
+    
+    <!-- VIDEO -->
+
+    <div class="video">        
+        <div class="contentVideo">
+            <video class="videoPromo" src="./img/cons.mp4" autoplay muted loop></video>
+        </div>
+    </div>
+
+    <!-- CARD WITH IT'S RESPECTIVE SERVICE  -->
+      
+      <div class="containerCards">
+       
+        <div class="container text-center mt-5 pt-5">
+            <h1 class="text-secondary"><i class="bi bi-hammer"></i> Servicios</h1>
+        </div>
+        <div class="cards">
+            <div class="card">                
+                <img src="img/Servicios-lavadoras.jpg"  alt="">
+                <div class="infoCard">
+                    <a type="button" class="link-underline link-underline-opacity-0 text-light pb-3 btnModal" data-bs-toggle="modal" data-bs-target="#modalCards"  id="1">Reparacion y Mantenimiento de Lavadoras</a>
+                    <!-- <p id="servicio1">Repacion y Mantenimiento Lavadoras</p> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Servicios-neveras.jpg"  alt="">
+                <div class="infoCard">
+                    <a type="button" class="link-underline link-underline-opacity-0 text-light pb-3 btnModal" data-bs-toggle="modal" data-bs-target="#modalCards"  id="2">Reparacion y Mantenimiento de Neveras</a>
+                    <!-- <p id="servicio2">Repacion y Mantenimiento Nevera</p> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Servicios-TVs.jpg" alt="">
+                <div class="infoCard">
+                    <a type="button" class="link-underline link-underline-opacity-0 text-light pb-3 btnModal" data-bs-toggle="modal" data-bs-target="#modalCards"  id="3">Reparacion y Mantenimiento de Televisores</a>
+                    <!-- <p id="servicio3">Repacion y Mantenimiento Televisores</p> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/servicios-computadores.jpg" alt="">
+                <div class="infoCard">
+                    <a type="button" class="link-underline link-underline-opacity-0 text-light pb-3 btnModal" data-bs-toggle="modal" data-bs-target="#modalCards" id="4">Reparacion y Mantenimiento de Computadores</a>
+                    <!-- <p id="servicio8">Servicio Tecnico Computadores</p> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Servicios-pisos.jpg" alt="">
+                <div class="infoCard">
+                    <a type="button" class="link-underline link-underline-opacity-0 text-light pb-3 btnModal" data-bs-toggle="modal" data-bs-target="#modalCards"  id="5">Mantenimiento de pisos y más</a>
+                    <!-- <p id="servicio9">Reparacion y Mantenimiento de pisos</p> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/electricista-masculino-trabaja-centralita-cable-conexion-electrica.jpg" alt="">
+                <div class="infoCard">
+                    <a type="button" class="link-underline link-underline-opacity-0 text-light pb-3 btnModal" data-bs-toggle="modal" data-bs-target="#modalCards"  id="6">Servicios electrónico</a>
+                    <!-- <p id="servicio4">Servicios electrónico</p> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Servicio-plomeria.jpg" alt="">
+                <div class="infoCard">
+                    <a type="button" class="link-underline link-underline-opacity-0 text-light pb-3 btnModal" data-bs-toggle="modal" data-bs-target="#modalCards"  id="7">Servicio de Plomeria</a>
+                  <!-- <p id="servicio5">Servicio de Plomeria</p> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Servicios-carpinteria.jpg" alt="">
+                <div class="infoCard bg-secondary">
+                    <a type="button" class="link-underline link-underline-opacity-0 text-light pb-3 btnModal" data-bs-toggle="modal" data-bs-target="#modalCards"  id="8">Servicio de Carpinteria</a>
+                    <!-- <p id="servicio6">Servicio de Carpinteria</p> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Servicios-mudanzas.avif" alt="">
+                <div class="infoCard">
+                    <a type="button" class="link-underline link-underline-opacity-0 text-light pb-3 btnModal" data-bs-toggle="modal" data-bs-target="#modalCards"  id="9">Servicio de Mudanzas</a>
+                    <!-- <p id="servicio7">Servicio de Mudanzas</p> -->
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Servicios-remodelaciones.jpg" alt="">
+                <div class="infoCard">
+                    <a type="button" class="link-underline link-underline-opacity-0 text-light pb-3 btnModal" data-bs-toggle="modal" data-bs-target="#modalCards"  id="10">Servicio de remodelación</a>
+                    <!-- <p id="servicio10">Servicio de remodelación</p>
+                    <input type="text"> -->
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- SLIDER -->
+
+    <div class="container text-center py-5">
+        <h1 class="text-secondary"><i class="bi bi-people"></i> Aliados</h1>
+    </div>
+
+    <Slider class="sliderAliados d-flex  justify-content-center mb-5">        
+        <div class="sliderAliado ">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/tecnico express e.a.webp" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/cropped-Logo-pagina-copia.png" class="d-block " alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/tecnico express e.a.webp" class="d-block" alt="...">
+                  </div>
+                </div>
+            </div>
+        </div>
+    </Slider> 
+
+
+    <!-- MODAL -->
+
+
+    <div class="modal fade" id="modalCards" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog d-flex modal-lg rounded-4">
+
+    <div class="informacion col-8 d-flex rounded-2 bg-secondary text-light text-align-center align-items-center p-4">
+            <div class="info-childs">
+                <h2 class="modal-title text-center"></h2>
+                <div class="description"></div>
+            </div>
+    </div>
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+            <form class="form" method="post">
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Tipo de servicio</label>
+                    <select required class="form-select" aria-label="Default select example" id="typeServicio">
+                        <option selected>selecciona el servicio</option>
+                        <option value="Mantenimiento">Mantenimiento</option>
+                        <option value="Revision">Revision</option>
+                        <option value="Reparacion">Reparacion</option>
+                    </select>
+                </div>
+                <div class="mb-3 marcaEquipo"> 
+                    <label for="recipient-name" class="col-form-label">Marca de equipo por reparar</label>  
+                    <select required class="form-select" aria-label="Default select example" id="marcas"> 
+                        <option selected>selecciona la Marca </option>
+                        <option value="Haceb">Haceb</option>
+                        <option value="Samsung">Samsung</option>
+                        <option value="whirspool">whirspool</option>
+                        <option value="Avera">Avera</option>
+                        <option value="Challenger">Challenger</option>
+                        <option value="Chef Master">Chef Master</option>
+                        <option value="Hisense">Hisense</option>
+                        <option value="Kalley">Kalley</option>
+                        <option value="Electrolux">Electrolux</option>
+                        <option value="General Electric">General Electric</option>
+                        <option value="LG">LG</option>
+                        <option value="MABE">MABE</option>
+                        <option value="SCHAFFHAUSEN">Schaffhausen</option>
+                        <option value="KAULER">KAULER</option>
+                    </select>
+                </div>  
+          
+                <div class="mb-3 referencia"> 
+                    <label for="" class="col-form-label">Referencia del equipo</label>
+                    <input required type="text" class="form-control" id="referenceElectro">
+                </div>
+          
+                <div class="mb-3">
+                    <label for="" class="col-form-label">Estas disponible desde</label>
+                    <input required type="datetime-local" class="form-control" id="startAvailability">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="col-form-label">Fin de disponibilidad</label>
+                    <input required type="datetime-local" class="form-control" id="endAvailability">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Ingresa fotografias si son necesarias</label>
+                    <input required class="form-control" type="file" id="formFileMultiple" multiple>
+                </div>
+                <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Mas detalles</label>
+                    <textarea required class="form-control" id="detalles"></textarea>
+                </div>
+                   
+            </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn close btn-secondary text-light" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary text-light" id="enviar">Enviar solicitud</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer-m></footer-m>
+
+    
+    <script type="module" src="./js/navegacion.js"></script>
+    <script type="module" src="./js/proyecto.js"></script>
+    <script type="module" src="./js/obj.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    
+</body>
+</html>

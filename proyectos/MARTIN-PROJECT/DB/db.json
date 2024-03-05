@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nombre": "alexis",
+      "direccion": "Cl 22",
+      "contraseña": "1234",
+      "celular": "3147146992",
+      "correo": "alexis@gmail.com",
+      "imagen": "../img/avatar.png",
+      "rol": "usuario"
+    },
+    {
+      "id": "2",
+      "nombre": "daniel",
+      "direccion": "Manzana 3 #5B",
+      "contraseña": "1234",
+      "celular": "3218780291",
+      "correo": "daniel@gmail.com",
+      "imagen": "../img/avatar.png",
+      "rol": "usuario"
+    },
+    {
+      "id": "3",
+      "nombre": "alex",
+      "direccion": "Cr 54B",
+      "contraseña": "4444",
+      "celular": "3218780291",
+      "correo": "alexander@gmail.com",
+      "imagen": "../img/avatar.png",
+      "rol": "usuario"
+    },
+    {
+      "id": "4",
+      "nombre": "daniel esteban",
+      "direccion": "cr5",
+      "contraseña": "123456",
+      "celular": "3168068578",
+      "correo": "danielestebanjimenezlopez@gmail.com",
+      "imagen": "../../img/avatar.png",
+      "rol": "usuario"
+    },
+    {
+      "nombre": "Juan Ramirez",
+      "direccion": "Cl 22A #5B",
+      "contraseña": "4444",
+      "celular": "3238470272",
+      "correo": "juanramirez@gmail.com",
+      "imagen": "../../img/avatar.png",
+      "rol": "admin",
+      "id": "5"
+    },
+    {
+      "id": "6",
+      "nombre": "Claudia Rodriguez",
+      "direccion": "Cl 54B #18A",
+      "contraseña": "1234",
+      "celular": "3145168441",
+      "correo": "clauro22@gmail.com",
+      "imagen": "../../img/avatar.png",
+      "rol": "admin"
+    },
+    {
+      "id": "7",
+      "nombre": "pepes",
+      "direccion": "Manzana 9",
+      "contraseña": "1234",
+      "celular": "321782521",
+      "correo": "pepe@gmail.com",
+      "imagen": "../../img/avatar.png",
+      "rol": "usuario"
+    },
+    {
+      "id": "8",
+      "nombre": "alexander",
+      "direccion": "calle1 213",
+      "contraseña": "12345",
+      "celular": "32022512122",
+      "correo": "Alexander.skdk@jaja.com",
+      "imagen": "../../img/avatar.png",
+      "rol": "usuario"
+    },
+    {
+      "id": "9",
+      "nombre": "daniel jimenez",
+      "direccion": "cll 45 # 67b 23",
+      "contraseña": "12345678",
+      "celular": "3168068578",
+      "correo": "dani0402.w@gmail.com",
+      "imagen": "../../img/avatar.png",
+      "rol": "usuario"
+    },
+    {
+      "id": 10,
+      "nombre": "juan david",
+      "direccion": "cll 45 # 67b 56",
+      "contraseña": "12345678",
+      "celular": "3168068572",
+      "correo": "juandavid@gmail.com",
+      "imagen": "../../img/avatar.png",
+      "rol": "usuario"
+    }
+  ],
+  "solicitud": [
+    {
+      "id": "1",
+      "usuario": "Juan Ramirez",
+      "typeServicio": "Mantenimiento",
+      "marcas": "Samsung",
+      "referencia": "43455",
+      "dateStart": "2024-02-08T00:21",
+      "dateEnd": "2024-02-22T00:21",
+      "img": "",
+      "direccion": "Cl 22A #5B",
+      "detalles": "ya"
+    },
+    {
+      "id": "2",
+      "usuario": "Juan Ramirez",
+      "typeServicio": "Mantenimiento",
+      "marcas": "selecciona la Marca",
+      "referencia": "",
+      "dateStart": "2024-02-08T00:32",
+      "dateEnd": "2024-02-08T00:32",
+      "img": "",
+      "direccion": "Cl 22A #5B",
+      "detalles": "nesecito mantenimiento de mis closed"
+    },
+    {
+      "id": 3,
+      "usuario": "juan david",
+      "typeServicio": "Mantenimiento",
+      "marcas": "Samsung",
+      "referencia": "Sm-3454",
+      "dateStart": "2024-02-08T08:45",
+      "dateEnd": "2024-02-14T08:45",
+      "img": "",
+      "direccion": "cll 45 # 67b 56",
+      "detalles": "se me daño la nevera"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "fecha": "15/1/2024",
+      "usuario": "Juan",
+      "comentario": "Excelente"
+    },
+    {
+      "id": "2",
+      "fecha": "24/1/2024",
+      "usuario": "Maria",
+      "comentario": "Fabuloso"
+    },
+    {
+      "id": "3",
+      "fecha": "31/1/2024",
+      "usuario": "alex",
+      "comentario": "Increible aaaaa"
+    },
+    {
+      "id": "4",
+      "fecha": "31/1/2024",
+      "usuario": "alex",
+      "comentario": "Excelenteeeeee"
+    },
+    {
+      "id": "5",
+      "fecha": "5/2/2024",
+      "usuario": "alexander",
+      "comentario": "hola\n"
+    },
+    {
+      "id": 6,
+      "fecha": "7/2/2024",
+      "usuario": "Juan Ramirez",
+      "comentario": "estamos feliz por nuestro mantenimiento"
+    }
+  ]
+}

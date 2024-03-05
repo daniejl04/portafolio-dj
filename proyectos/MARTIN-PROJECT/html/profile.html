@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="icon" sizes="any" href="../img/Vector.svg" type="image/svg+xml">
+    <title>Martin</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  bg-primary  sticky-sm-top rounded-4 m-3" >
+        <div class="container-fluid ">
+          <a class="" href="../index.html"><img src="../img/Capa 3.svg" width="60px" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto gap-2">
+              <li class="nav-item d-flex justify-content-center align-items-center">
+                <i class="bi bi-house text-white"  style="font-size: 20px;"></i>
+                <a class="nav-link text-white" href="../index.html">Inicio</a>
+              </li>
+  
+              <li class="nav-item d-flex justify-content-center align-items-center">
+                <i class="bi bi-chat-left-text text-white mt-1" style="font-size: 20px;"></i>
+                <a class="nav-link text-white" href="./comentarios.html">Comentarios</a>
+              </li>
+            </ul>
+            <li class="nav-item d-flex justify-content-center align-items-center">
+                <button id="btnLogout" class="btn btn" type="button">
+                    <i class="bi bi-box-arrow-left text-white" style="font-size: 21px;"></i>
+                    <a class="link-underline link-underline-opacity-0 text-light" >Cerrar sesión</a>
+                </button>
+            </li>
+          </div>
+        </div>
+      </nav>
+   
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-4 mt-5">
+                <div class="text-center">
+                    <img id="imgPerfil" src="../img/avatar.png" class="avatar img-circle img-thumbnail" alt="avatar">
+                    <input id="fileImage" type="file" class="text-center center-block file-upload mt-2 ">
+                </div>
+                 <br>
+            </div>
+
+            <div class="col-sm-8" style="margin-top: 50px;">
+
+                <!-- <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#home">Perfil</a></li>
+                </ul> -->
+
+
+                <div class="tab-content">
+                    <div class="tab-pane active" id="home">
+                        <!-- <hr> -->
+                        <form method="PUT" class="form" id="registrationForm">
+                            <div class="form-group">
+
+                                <div class="col-xs-6">
+                                    <label>
+                                        <h4>Nombre</h4>
+                                    </label>
+                                    <input type="text" class="form-control" id="nombrePerfil" minlength="5" maxlength="20">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-xs-6">
+                                    <label>
+                                        <h4>Dirección</h4>
+                                    </label>
+                                    <input type="text" class="form-control" id="direccionPerfil" minlength="5" maxlength="15">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-6">
+                                    <label>
+                                        <h4>Contraseña</h4>
+                                    </label>
+                                    <input type="password" class="form-control" id="contraseñaPerfil" maxlength="9" minlength="4">
+   
+                                    <div class="mb-3">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" id="check">
+                                          <label class="form-check-label" for="disabledFieldsetCheck">
+                                            Mostrar contraseña
+                                          </label>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="col-xs-6">
+                                    <label>
+                                        <h4>Celular</h4>
+                                    </label>
+                                    <input type="number" class="form-control" id="telefonoPerfil">
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="col-xs-6">
+                                    <label>
+                                        <h4>Correo electrónico</h4>
+                                    </label>
+                                    <input type="email" class="form-control" id="correoPerfil" maxlength="25" minlength="4">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <br>
+                                    <button type="submit" id="btnActualizar" class="btn btn-success"><i class="glyphicon glyphicon-ok-sign"></i>Actualizar</button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <hr>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    <script type="module" src="../js/profile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
